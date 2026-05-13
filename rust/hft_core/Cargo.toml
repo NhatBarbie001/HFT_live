@@ -1,0 +1,12 @@
+[package]
+name = "hft_core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rust_decimal = "1"
+chrono = { version = "0.4", features = ["serde"] }
+serde = { version = "1.0", features = ["derive"] }
+async-trait = "0.1"
+sled = "0.34"
+serde_json = "1"

@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "hft_core",
+    "hft_engine",
+    "hft_exchange_mock",
+    "hft_strategy",
+]
